@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
 public class PipelineServiceImpl implements PipelineService{
 	
 		public ResponseEntity<String> getdemo() {
-			return new ResponseEntity<>("This is a demo API", HttpStatus.OK);
+			return new ResponseEntity<>("This is a Docker demo API", HttpStatus.OK);
 		}
 }
